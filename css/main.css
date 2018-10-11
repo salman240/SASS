@@ -146,4 +146,19 @@ main #primary a:hover {
   background: #fff;
   color: #005DFF;
 }
+
+footer {
+  display: inline-block;
+  margin: 3% auto auto 5%;
+  color: #fff;
+  font-family: cursive;
+  border-left: 4px solid;
+  padding: 4px;
+}
+
+@media (min-width: 840px) {
+  footer {
+    font-size: 1.4em;
+  }
+}
 /*# sourceMappingURL=main.css.map */

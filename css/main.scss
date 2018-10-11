@@ -156,3 +156,16 @@ main{
         }
     }
 }
+
+footer{
+    display: inline-block;
+    margin: 3% auto auto 5%;
+    color: #fff;
+    font-family: cursive;
+    border-left: 4px solid;
+    padding: 4px;
+
+    @include desktop(){
+        font-size: 1.4em;
+    }
+}
